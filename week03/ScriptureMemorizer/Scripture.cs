@@ -40,6 +40,7 @@ public class Scripture
 
     public string GetFullText()
     {
+        // Ensure this reconstructs the original scripture text
         return string.Join(" ", _words.Select(word => word.ToString()));
     }
 }
